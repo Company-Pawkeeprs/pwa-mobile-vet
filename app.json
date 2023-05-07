@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "pwa-mobile",
+    "slug": "pwa-mobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
