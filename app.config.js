@@ -1,4 +1,4 @@
-import {config} from 'dotenv';
+import { config } from 'dotenv';
 
 config()
 
@@ -19,6 +19,7 @@ export default {
         supportsTablet: true
     },
     android: {
+        package: 'com.pawkeepr.app',
         adaptiveIcon: {
             foregroundImage: "./assets/adaptive-icon.png",
             backgroundColor: "#ffffff"
@@ -28,8 +29,8 @@ export default {
         favicon: "./assets/favicon.png"
     },
     extra: {
-        eas: {
-            projectId: "7883a649-9bf6-44f6-9d83-852a71af6bd3"
+        "eas": {
+            "projectId": "a7e82d1b-a58f-4302-b4b0-2abfd8011524"
         },
         WEB_URL: process.env.WEB_URL
     }
