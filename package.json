@@ -1,15 +1,16 @@
 {
-  "name": "pwa-mobile",
+  "name": "pwa-mobile-vet",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "expo start --dev-client",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "web": "expo start --web"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --tunnel --web"
   },
   "dependencies": {
     "@expo/webpack-config": "^18.0.1",
+    "dotenv": "^16.0.3",
     "expo": "~48.0.15",
     "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",
@@ -20,7 +21,9 @@
     "react-native-webview": "11.26.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.0.14",
+    "typescript": "^4.9.4"
   },
   "private": true
 }
